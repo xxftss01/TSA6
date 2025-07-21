@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Case Studies - Cicada 3301</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .case-studies {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .case-studies h2 {
+      font-size: 2.5rem;
+      text-align: center;
+      margin-bottom: 20px;
+      color: #00ff99;
+    }
+
+    .case {
+      background-color: #1c1c1c;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      padding: 25px;
+      box-shadow: 0 0 10px rgba(0,255,153,0.1);
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .case img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .case h3 {
+      font-size: 1.8rem;
+      color: #00ff99;
+    }
+
+    .case p {
+      line-height: 1.7;
+      color: #ccc;
+    }
+
+    @media (min-width: 768px) {
+      .case {
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .case img {
+        width: 300px;
+        margin-right: 20px;
+      }
+
+      .case .text {
+        flex: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="Images/Cicada Logo.png" alt="Cicada Logo" class="logo" />
+    <div class="site-title">
+      <h1>Cicada 3301</h1>
+      <p class="tagline">Advanced Cybersecurity & Digital Protection</p>
+    </div>
+  </header>
+
+  <main class="case-studies">
+    <h2>Case Studies</h2>
+
+    <div class="case">
+      <img src="Images/hand-displaying-assortment-of-assets-protected-by-cybersecurity.5120.webp" alt="Government Security" />
+      <div class="text">
+        <h3>Government Ransomware Defense</h3>
+        <p>
+          When a local municipal office was hit with a ransomware attack, Cicada 3301 was called in. Within hours, our team deployed forensic tools to isolate the threat, trace its entry point, and prevent further encryption of critical data.
+        </p>
+        <p>
+          Our specialists recovered 98% of encrypted files and implemented a real-time monitoring system to prevent future attacks.
+        </p>
+      </div>
+    </div>
+
+    <div class="case">
+      <img src="Images/cyberattack.webp" alt="Bank DDoS Defense" />
+      <div class="text">
+        <h3>Banking DDoS Attack Response</h3>
+        <p>
+          A Philippine-based fintech platform suffered a Distributed Denial-of-Service (DDoS) attack causing massive downtime. We immediately launched our rapid response playbook using traffic filtering, IP geofencing, and cloud mitigation.
+        </p>
+        <p>
+          The service was restored within 3 seconds, with zero data loss. Our efforts were later published in a local cybersecurity report.
+        </p>
+      </div>
+    </div>
+
+    <div class="case">
+      <img src="Images/encryption.webp" alt="Ecommerce Breach Fix" />
+      <div class="text">
+        <h3>E-Commerce Breach Recovery</h3>
+        <p>
+          After a breach that leaked over 5,000 customer records, an SME retailer hired us to investigate. We found misconfigured APIs and outdated encryption protocols.
+        </p>
+        <p>
+          Cicada 3301 implemented end-to-end encryption, enabled MFA for admin logins, and trained their staff on phishing prevention. Customer trust was restored.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <img src="Images/Cicada Logo.png" alt="Cicada Logo" class="footer-logo" />
+    <p>&copy; 2025 Cicada 3301 Cybersecurity | Web & Security by Dhave Henley Munar</p>
+  </footer>
+
+</body>
+</html>
+
